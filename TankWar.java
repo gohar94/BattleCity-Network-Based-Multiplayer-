@@ -1,6 +1,7 @@
 public class TankWar extends Application{
 	
 	// This is the class to execute the game
+	protected BasicBlock[][] map;
 
 
 	public start(Stage stage){

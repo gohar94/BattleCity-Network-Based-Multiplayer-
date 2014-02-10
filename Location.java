@@ -7,10 +7,7 @@ public class Location {
 	}
 
 	public boolean equals(Location loc){
-		if (row == loc.getRow() && col == loc.getCol()){
-			return true;
-		}
-		return false;
+		return (row == loc.getRow() && col == loc.getCol());
 	}
 
 	public void setLocation(int r,int c){
