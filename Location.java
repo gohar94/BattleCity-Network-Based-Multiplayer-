@@ -1,4 +1,6 @@
-public class Location {
+import java.io.Serializable;
+
+public class Location implements Serializable {
 	private int row, col;
 
 	public Location(int r, int c){
@@ -22,6 +24,8 @@ public class Location {
 
 	public int findDistance(int r,int c){
 		// implement here
+		int dist = 0;
+		return dist;
 	}
 
 	public int getRow(){
